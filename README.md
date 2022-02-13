@@ -24,6 +24,7 @@ Reto de NUWE sobre la fase online para acceder al reto final del Mobile World Co
 ## **mwc22-client_table+-+test_x.csv**: 
 Mismo contenido que **mwc22-client_table.csv** sin los CLIENT_SEGMENT que será la variable a predecir
 
+
 # 1. Exploratory Data Analysis
 
 Para esta parte del challenge, cabe destacar el uso de la función pivot_table con el objetivo de realizar el siguiente gráfico:
@@ -31,6 +32,7 @@ Para esta parte del challenge, cabe destacar el uso de la función pivot_table c
 ![image](https://user-images.githubusercontent.com/47833532/153759279-63999cd9-6171-4b54-aa99-9328cf99bf91.png)
 
 Dónde se analizan las ventas por piezas de fruta por separado en las ordenes de los clientes. Aparte de algunos porcentajes del uso de las promociones recibidas en los clientes y otros datos descriptivos.
+
 
 # 2. Predictive Model CLIENT_SEGMENT
 
