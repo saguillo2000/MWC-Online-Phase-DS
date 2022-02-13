@@ -21,7 +21,8 @@ Reto de NUWE sobre la fase online para acceder al reto final del Mobile World Co
 | ORDER ID                 | Identificador único del pedido                                                        |
 | FRUIT_PRODUCT            | Variedad de fruta                                                                     |
 
-## **mwc22-client_table+-+test_x.csv**: Mismo contenido que **mwc22-client_table.csv** sin los CLIENT_SEGMENT que será la variable a predecir
+## **mwc22-client_table+-+test_x.csv**: 
+Mismo contenido que **mwc22-client_table.csv** sin los CLIENT_SEGMENT que será la variable a predecir
 
 # 1. Exploratory Data Analysis
 
