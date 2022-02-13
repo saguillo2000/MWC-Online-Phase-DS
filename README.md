@@ -42,6 +42,9 @@ Importante decir que el Order_Id es el recuento de veces que un cliente ha reali
 
 En lo referente a resultados del Random Forest vemos lo siguiente en el classification report de sklearn.
 
+<div align="center">
 ![image](https://user-images.githubusercontent.com/47833532/153759562-57d6fb2b-320e-4af5-b408-3ec20e56adc9.png)
+<h3 align="center">BOOKSY</h3>
+</div>
 
 Las conclusiones del modelo de predicción es que el segmento 6 es un segmento de miscelania, es decir si un cliente no encaja en los grupos del 1 al 5 este se introduce al 6.
