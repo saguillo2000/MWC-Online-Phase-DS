@@ -2,12 +2,15 @@
 
 Reto de NUWE sobre la fase online para acceder al reto final del Mobile World Congress 2022. En este repositorio se realiza un Exploratory Data Analysis y un modelo predictivo sobre un e-commerce sobre frutas. Los datos que tenemos son los siguientes:
 
-**mwc22-client_table.csv**:
-  CLIENT ID: Identificador único del cliente
-  CLIENT_SEGMENT: Segmento de clientes
-  AVG CONSO: Consumo medio mensual del cliente calculado a finales de 2020 (en piezas de fruta)
-  AVG BASKET SIZE: Tamaño medio de la cesta del cliente calculado a finales de 2020 (en piezas de fruta)
-  RECEIVED_COMMUNICATION: 1 = Recibió promoción de sus productos / 0 = no la recibió 
+
+|**mwc22-client_table.csv**                                                                                        |
+| Variables                |  Descripción                                                                          |
+|:-----                    |:-------------------------------------------------------------------------------------:|
+| CLIENT ID                | Identificador único del cliente                                                       | 
+| CLIENT_SEGMENT           |  Segmento de clientes                                                                 | 
+| AVG CONSO                | Consumo medio mensual del cliente calculado a finales de 2020 (en piezas de fruta)    |
+| AVG BASKET SIZE          | Tamaño medio de la cesta del cliente calculado a finales de 2020 (en piezas de fruta) |
+| RECEIVED_COMMUNICATION   | 1 = Recibió promoción de sus productos / 0 = no la recibió                            |
 
 **mwc22-orders_table.csv**:
   CLIENT ID: Identificador único del cliente
