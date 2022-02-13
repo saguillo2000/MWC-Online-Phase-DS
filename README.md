@@ -3,7 +3,7 @@
 Reto de NUWE sobre la fase online para acceder al reto final del Mobile World Congress 2022. En este repositorio se realiza un Exploratory Data Analysis y un modelo predictivo sobre un e-commerce sobre frutas. Los datos que tenemos son los siguientes:
 
 
-|**mwc22-client_table.csv**                                                                                        |
+## **mwc22-client_table.csv**                                                                                        
 | Variables                |  Descripción                                                                          |
 |:-----                    |:-------------------------------------------------------------------------------------:|
 | CLIENT ID                | Identificador único del cliente                                                       | 
@@ -12,11 +12,14 @@ Reto de NUWE sobre la fase online para acceder al reto final del Mobile World Co
 | AVG BASKET SIZE          | Tamaño medio de la cesta del cliente calculado a finales de 2020 (en piezas de fruta) |
 | RECEIVED_COMMUNICATION   | 1 = Recibió promoción de sus productos / 0 = no la recibió                            |
 
-**mwc22-orders_table.csv**:
-  CLIENT ID: Identificador único del cliente
-  NB PRODS: Número de 'prods' de la variedad de fruta en el pedido (1 prod = 10 piezas de fruta)
-  ORDER ID: Identificador único del pedido
-  FRUIT_PRODUCT: Variedad de fruta
+## **mwc22-orders_table.csv**:
+
+| Variables                |  Descripción                                                                          |
+|:-----                    |:-------------------------------------------------------------------------------------:|
+| CLIENT ID                | Identificador único del cliente                                                       | 
+| NB PRODS                 | Número de 'prods' de la variedad de fruta en el pedido (1 prod = 10 piezas de fruta)  | 
+| ORDER ID                 | Identificador único del pedido                                                        |
+| FRUIT_PRODUCT            | Variedad de fruta                                                                     |
 
 **mwc22-client_table+-+test_x.csv**: Mismo contenido que **mwc22-client_table.csv** sin los CLIENT_SEGMENT que será la variable a predecir
 
